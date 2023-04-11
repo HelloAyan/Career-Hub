@@ -1,0 +1,27 @@
+.mainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.menuContainer {
+    display: flex;
+    column-gap: 20px;
+}
+
+.webTitle {
+    font-size: 30px;
+    color: black;
+}
+
+.applyBtn {
+    width: 150px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #818DFF;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
