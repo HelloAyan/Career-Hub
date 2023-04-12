@@ -24,6 +24,7 @@ const FeaturedJob = () => {
                 </div>
                 <div className={Styles.jobPostSection}>Microsoft</div>
             </div>
+            <div className={Styles.allJobBtn}> <button>See All Jobs </button> </div>
         </div>
     )
 }
