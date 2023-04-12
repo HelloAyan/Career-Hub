@@ -1,0 +1,87 @@
+.featuredTitle {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+.featureContent {
+    color: #757575;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.featuredJobBodyContainer {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-top: 35px;
+
+}
+
+.jobPostSection {
+    width: 100%;
+    padding: 40px;
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 10px;
+}
+
+
+.postTitle {
+    font-size: 24px;
+    color: #474747;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.companyName {
+    color: #757575;
+    font-size: 20px;
+}
+
+.remoteFullTimeSection {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.jobTypeSection {
+    border: 1px solid #8E7EFF;
+    color: #8E7EFF;
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.locationSalarySection {
+    display: flex;
+    column-gap: 25px;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.viewBtn {
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.viewBtn button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #818DFF;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
