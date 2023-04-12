@@ -1,0 +1,45 @@
+.jobCategoryContainer {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.jobTitleSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 30px;
+
+}
+
+.jobCategory {
+    background-color: #F9F9FF;
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    padding: 40px 0 40px 40px;
+}
+
+.imgSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #EDEEFF;
+}
+
+.postTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.availableJob {
+    font-size: 16px;
+    color: #A3A3A3;
+}
