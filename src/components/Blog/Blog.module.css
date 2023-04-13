@@ -1,0 +1,15 @@
+.blogContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.questionSection {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

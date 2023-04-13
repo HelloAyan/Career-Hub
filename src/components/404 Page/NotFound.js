@@ -3,7 +3,10 @@ import Styles from './NotFound.module.css';
 
 const NotFound = () => {
     return (
-        <div>Page NotFound</div>
+        <div className={Styles.container}>
+            <div>404 Error</div>
+            <div>Page Not Found!...</div>
+        </div>
     )
 }
 

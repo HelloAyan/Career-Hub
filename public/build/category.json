@@ -1,0 +1,26 @@
+[
+    {
+        "id": "111",
+        "CategoryLogo": "https://media.istockphoto.com/id/1257382919/vector/creative-smart-ideas-icon-blue-vector.jpg?s=1024x1024&w=is&k=20&c=sdaLQIiuKwH_HqqWUinVbiTA_q5A8n4upzJSMb6pL9o=",
+        "CategoryName": " Account & Finance",
+        "JobAvailable": "500"
+    },
+    {
+        "id": "111",
+        "CategoryLogo": "https://media.istockphoto.com/id/1257382919/vector/creative-smart-ideas-icon-blue-vector.jpg?s=1024x1024&w=is&k=20&c=sdaLQIiuKwH_HqqWUinVbiTA_q5A8n4upzJSMb6pL9o=",
+        "CategoryName": "Creative Design",
+        "JobAvailable": "100"
+    },
+    {
+        "id": "111",
+        "CategoryLogo": "https://media.istockphoto.com/id/1257382919/vector/creative-smart-ideas-icon-blue-vector.jpg?s=1024x1024&w=is&k=20&c=sdaLQIiuKwH_HqqWUinVbiTA_q5A8n4upzJSMb6pL9o=",
+        "CategoryName": "Marketing & Sales",
+        "JobAvailable": "200"
+    },
+    {
+        "id": "111",
+        "CategoryLogo": "https://media.istockphoto.com/id/1257382919/vector/creative-smart-ideas-icon-blue-vector.jpg?s=1024x1024&w=is&k=20&c=sdaLQIiuKwH_HqqWUinVbiTA_q5A8n4upzJSMb6pL9o=",
+        "CategoryName": "Engineering Job",
+        "JobAvailable": "300"
+    }
+]
