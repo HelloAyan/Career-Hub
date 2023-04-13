@@ -1,16 +1,18 @@
 import './App.css';
-import FeaturedJob from './components/Feature Job/FeaturedJob';
-import Header from './components/Header/Header';
-import JobCategory from './components/Job Category/JobCategory';
-import Menu from './components/Menu/Menu';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NotFound from './components/404 Page/NotFound';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div className='body'>
-      <Menu />
-      <Header />
-      <JobCategory />
-      <FeaturedJob />
+      {/* <Home /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

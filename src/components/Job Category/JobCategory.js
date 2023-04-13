@@ -31,21 +31,6 @@ const JobCategory = () => {
                     </>
                 ))}
 
-                {/* <div className={Styles.jobCategory}>
-                    <div className={Styles.imgSection} > <img src={creativeImg} alt="" /> </div>
-                    <div className={Styles.postTitle}> Creative Design </div>
-                    <div className={Styles.availableJob}>Job available</div>
-                </div>
-                <div className={Styles.jobCategory}>
-                    <div className={Styles.imgSection} > <img src={marketingImg} alt="" /> </div>
-                    <div className={Styles.postTitle}> Marketing & Sales </div>
-                    <div className={Styles.availableJob}>Job Available</div>
-                </div>
-                <div className={Styles.jobCategory}>
-                    <div className={Styles.imgSection} > <img src={EngineeringImg} alt="" /> </div>
-                    <div className={Styles.postTitle}> Engineering Job </div>
-                    <div className={Styles.availableJob}>Job Available</div>
-                </div> */}
             </div>
         </div>
     )
