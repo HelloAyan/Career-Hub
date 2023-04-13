@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Styles from '../Job Category/JobCategory.module.css';
-import accountImg from '../../assets/Icons/accounts 1.png';
+import accountImg from '../../assets/Icons/accounts.png';
 import creativeImg from '../../assets/Icons/business 1.png';
 import marketingImg from '../../assets/Icons/social-media 1.png';
 import EngineeringImg from '../../assets/Icons/chip 1.png';
@@ -24,7 +24,7 @@ const JobCategory = () => {
                 {category.map(v => (
                     <>
                         <div className={Styles.jobCategory}>
-                            <div className={Styles.imgSection} > <img src={accountImg} alt={v.CategoryName} style={{ width: '40px', height: '40px' }} /> </div>
+                            <div className={Styles.imgSection} > <img src={v.CategoryLogo} alt={v.CategoryName} style={{ width: '40px', height: '40px' }} /> </div>
                             <div className={Styles.postTitle}> {v.CategoryName}</div>
                             <div className={Styles.availableJob}>{v.JobAvailable} Job available</div>
                         </div>

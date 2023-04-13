@@ -1,7 +1,7 @@
 [
     {
         "id": "111",
-        "CompanyLogo": "https://images.unsplash.com/photo-1597878865099-a30447234956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "CompanyLogo": "https://www.linkpicture.com/q/google-1-1-1_11.png",
         "JobTitle": " Software Engineer",
         "CompanyName": "BJIT",
         "RemoteOrOnsite": "On Side",
@@ -16,7 +16,7 @@
     },
     {
         "id": "111",
-        "CompanyLogo": "https://images.unsplash.com/photo-1597878865099-a30447234956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "CompanyLogo": "https://www.linkpicture.com/q/Group-10021_5.png",
         "JobTitle": " Software Engineer",
         "CompanyName": "Google LLC",
         "RemoteOrOnsite": "On Side",
@@ -31,7 +31,7 @@
     },
     {
         "id": "111",
-        "CompanyLogo": "https://images.unsplash.com/photo-1597878865099-a30447234956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "CompanyLogo": "https://www.linkpicture.com/q/netflix-4-1_4.png",
         "JobTitle": " Software Engineer",
         "CompanyName": "Netflix",
         "RemoteOrOnsite": "On Side",
@@ -46,7 +46,37 @@
     },
     {
         "id": "111",
-        "CompanyLogo": "https://images.unsplash.com/photo-1597878865099-a30447234956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "CompanyLogo": "https://www.linkpicture.com/q/tesla-9-1_4.png",
+        "JobTitle": " Software Engineer",
+        "CompanyName": "Tesla",
+        "RemoteOrOnsite": "On Side",
+        "Location": "Dhaka, Bangladesh",
+        "FulltimePartTime": "Full Time",
+        "Salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "BSC in CSE",
+        "Experiences": "2years",
+        "Phone": "01700000"
+    },
+    {
+        "id": "111",
+        "CompanyLogo": "https://www.linkpicture.com/q/google-1-1-1_11.png",
+        "JobTitle": " Software Engineer",
+        "CompanyName": "Tesla",
+        "RemoteOrOnsite": "On Side",
+        "Location": "Dhaka, Bangladesh",
+        "FulltimePartTime": "Full Time",
+        "Salary": "100K - 150K",
+        "JobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "BSC in CSE",
+        "Experiences": "2years",
+        "Phone": "01700000"
+    },
+    {
+        "id": "111",
+        "CompanyLogo": "https://www.linkpicture.com/q/Group-10021_5.png",
         "JobTitle": " Software Engineer",
         "CompanyName": "Tesla",
         "RemoteOrOnsite": "On Side",

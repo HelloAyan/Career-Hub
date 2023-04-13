@@ -8,7 +8,7 @@ const FeaturedJob = () => {
     useEffect(() => {
         fetch('featured.json')
             .then(res => res.json())
-            .then(data => setFeatured(data));
+            .then(data => setFeatured(data.slice(0, 4)));
     }, [])
     return (
         <div>
@@ -18,7 +18,7 @@ const FeaturedJob = () => {
                 {featured.map(v => (
                     <>
                         <div className={Styles.jobPostSection}>
-                            <div> <img src={googleImg} alt="" /> </div>
+                            <div> <img src={v.CompanyLogo} alt={v.companyName} /> </div>
                             <div className={Styles.postTitle}> {v.JobTitle}</div>
                             <div className={Styles.companyName}>{v.CompanyName}</div>
                             <div className={Styles.remoteFullTimeSection}>
