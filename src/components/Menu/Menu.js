@@ -15,7 +15,8 @@ const Menu = () => {
             <div className={Styles.mainContainer}>
                 <Link to={'/'} style={{ textDecoration: 'none', color: 'inherit' }}> <div className={Styles.webTitle}>Job Portal</div> </Link>
                 <div className={Styles.menuContainer}>
-                    <NavLink to={'/'} style={{ textDecoration: 'none', color: 'inherit' }} activeStyle={activeStyle}> <div>Statistics</div> </NavLink >
+                    <NavLink to={'/'} style={{ textDecoration: 'none', color: 'inherit' }} activeStyle={activeStyle}> <div>Home</div> </NavLink >
+                    <NavLink to={'/statistic'} style={{ textDecoration: 'none', color: 'inherit' }} activeStyle={activeStyle}> <div>Statistics</div> </NavLink >
                     <NavLink to={'/'} style={{ textDecoration: 'none', color: 'inherit' }} activeStyle={activeStyle}> <div>Applied Jobs</div> </NavLink>
                     <NavLink to={'/blog'} style={{ textDecoration: 'none', color: 'inherit' }} activeStyle={activeStyle}><div>Blog</div></NavLink>
                 </div>
