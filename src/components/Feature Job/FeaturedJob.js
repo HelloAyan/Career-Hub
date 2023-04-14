@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Styles from '../Feature Job/FeaturedJob.module.css';
 import { Link } from 'react-router-dom';
-import googleImg from '../../assets/All Images/google-1-1 1.png';
+import googleImg from '../../assets/Images/google-1-1 1.png';
 
 const FeaturedJob = () => {
     const [featured, setFeatured] = useState([]);
