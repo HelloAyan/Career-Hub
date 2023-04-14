@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Styles from '../Feature Job/FeaturedJob.module.css';
+import { Link } from 'react-router-dom';
 import googleImg from '../../assets/All Images/google-1-1 1.png';
 
 const FeaturedJob = () => {
@@ -34,7 +35,7 @@ const FeaturedJob = () => {
                                 <div> <i class="fa-solid fa-location-dot"></i> {v.Location}</div>
                                 <div> <i class="fa-solid fa-dollar-sign"></i> Salary : {v.Salary}</div>
                             </div>
-                            <div className={Styles.viewBtn}> <button >View Details </button> </div>
+                            <div className={Styles.viewBtn}> <Link to={'/job_details'} style={{ textDecoration: 'none', color: 'inherit' }}> <button >View Details </button> </Link> </div>
                         </div>
                     </>
                 ))}
