@@ -25,3 +25,13 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+
+
+/* Responsive part Start */
+@media screen and (max-width: 576px) {
+
+    .menuContainer {
+        display: none;
+    }
+}

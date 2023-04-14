@@ -19,7 +19,6 @@
     column-gap: 25px;
     row-gap: 25px;
     margin-top: 35px;
-
 }
 
 .jobPostSection {
@@ -100,4 +99,20 @@
     color: white;
     cursor: pointer;
     font-size: 20px;
+}
+
+
+/* Responsive part Start */
+@media screen and (max-width: 576px) {
+
+    .featuredJobBodyContainer {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 25px;
+        row-gap: 25px;
+        margin-top: 35px;
+    }
+
 }
